@@ -1,6 +1,8 @@
 # BatchPatchMaintenanceMode
 Control Windows Services with BatchPatch
 
+![image](https://user-images.githubusercontent.com/107140997/172727331-172e7687-ab1d-48a8-ac49-45eb5b2efb7d.png)
+
 
 This is a quick and dirty .NET4.5 application for controlling Windows services.  It is called from BatchPatch and returns an exit code of 0 if everything is fine, or an exit code of 1 if something does not work. BatchPatch monitors the exit codes and can change the job queue to abort, change a color, or do something else. 
 
@@ -20,3 +22,4 @@ Examples of BatchPatch Job Queues are below. These will change the row red on an
 
 
 ![image](https://user-images.githubusercontent.com/107140997/172726245-dccd880e-5129-4efb-97b1-4355c917af9a.png)
+
